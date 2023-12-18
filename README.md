@@ -20,7 +20,7 @@ Desenvolver ou pelo menos elaborar sugestões de abordagens para o restante do s
 * Backend com uma rota que receba o input, execute o algoritmo e responda o usuário;
 * Testes unitários ou quaisquer tipos de testes que achar conveniente;
 * Documentações que achar conveniente;
-* O que mais achar conveniente (autenticação, dockerização, infra, CI/CD etc);
+* O que mais achar conveniente (autenticação, banco de dados, dockerização, infra, CI/CD etc);
 
 ## Observações Gerais
 
