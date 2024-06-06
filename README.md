@@ -1,40 +1,99 @@
-# Teste Lexter.ai (Full Stack)
 
-## Introdução
 
-O teste consiste em escrever um algoritmo que modifique um lista de objetos do tipo **Input** (definido em `src/input.ts`) para uma lista de objetos do tipo **Output** (definido em `src/output.ts`), usando Typescript e quaisquer outras ferramentas que deseje.
+# Lexter Algorithm Interview - Yuri Leão
 
-Faça um fork do projeto, desenvolva, `commit` e `push` para compartilhar conosco.
+Modifies a list of objects transforming to expected output.
 
-## Objetivos 
+## Relevant files
 
-### Principal
+> > [📂 app](https://github.com/yuriileaoo/lexter-algorithm-interview/tree/main/app "nvision app") - Nvision app
+> >
+> >  [📂 public](https://github.com/yuriileaoo/lexter-algorithm-interview/tree/main/public "nvision app") - 
+> >
+> >
+> > [📂 src](https://github.com/yuriileaoo/lexter-algorithm-interview/tree/main/src "src") - Main app
+> >
+> > > [📂 components](https://github.com/yuriileaoo/lexter-algorithm-interview/tree/main/src/components "React components") - React components
+> >
+> >  > [📂 data](https://github.com/yuriileaoo/lexter-algorithm-interview/tree/main/src/data "Data connection") - Data connection
+> >
+>  > > [📂 pages](https://github.com/yuriileaoo/lexter-algorithm-interview/tree/main/src/pages "React pages") - React pages
+> >
+> >  > > [📂 api](https://github.com/yuriileaoo/lexter-algorithm-interview/tree/main/src/api "Routes") - Backend routes
+> >
+>  > > [📂 styles](https://github.com/yuriileaoo/lexter-algorithm-interview/tree/main/src/styles "CSS Styles") - CSS Styles
+> >
+> >  > > [📂 types](https://github.com/yuriileaoo/lexter-algorithm-interview/tree/main/src/types "Data Types") - Data Types
+> >
 
-Entender as estruturas de dados (**Input** e **Output**) e desenvolver o algoritmo descrito na introdução acima.
 
-### Secundários
 
-Desenvolver ou pelo menos elaborar sugestões de abordagens para o restante do stack:
+## Demo
 
-* Frontend que receba inputs do usuário (no formato `src/input.ts`) e mostre o output (no formato `src/output.ts`);
-* Backend com uma rota que receba o input, execute o algoritmo e responda o usuário;
-* Testes unitários ou quaisquer tipos de testes que achar conveniente;
-* Documentações que achar conveniente;
-* O que mais achar conveniente (autenticação, banco de dados, dockerização, infra, CI/CD etc);
+![Demo](https://teste-flora.s3.amazonaws.com/main.gif)
 
-## Observações Gerais
+## Requirements
 
-* Não é esperada a execução de todos os objetivos secundários. O que não for feito (ou for feito de forma incompleta), se achar conveniente e couber no seu nível de senioridade, indique possiveis sugestões de abordagem para execução;
-* Não existe uma resposta certa única para cada objetivo apresentado;
-* O setup do Node.js com o Typescript já está feito para você, basta instalar as dependência e usar `npm start` para rodar o projeto;
-* O arquivo de entrada do projeto é o `src/index.ts`;
-* Não é obrigatória a utilização de nenhuma linguagem ou framework específicos, apesar de já haver um setup inicial com Node.js.
+- Nextjs
+- Jest
+- Swagger
+- nVision
 
-## Detalhes Sobre o Modelo de Dados
+## Documentation
 
-* Todos os níveis da lista de output devem estar em ordem crescente por entryId;
-* Uma entrada deve ser filha da outra se o inicio do path de ambas for igual, ou seja, a entrada 'root/path' é filha da entrada 'root';
-* A estrutura tem profundidade indefinida;
-* A chave `fullPath` do Output é uma string com todos os elementos do path separados por `/`;
-* A chave `currentPath` é o valor do path atual. Ou seja para a entrada de `fullPath` `roo/path` o seu `currentPath` é `path`;
-* Os arquivos `src/input.ts` e `src/output.ts` tem um exemplo de um array de input e um de output.
+![Demo](https://teste-flora.s3.amazonaws.com/swagger.png)
+
+[Locahost Swagger](http://localhos:3000/swagger) - (locahost:3000/swagger)
+
+## Observability
+nVision monitors server side fetch calls and displays them on our table where you can keep track of, filter requests, visualizes the application's file structure, and illustrates the relationship between files and components.
+![Demo](https://teste-flora.s3.amazonaws.com/nvision.gif)
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/yuriileaoo/lexter-algorithm-interview.git
+```
+Install dependencies
+
+```bash
+  yarn
+```
+
+Run locally server
+
+```bash
+  yarn dev
+```
+
+### - Observability
+
+To run nvision, start server with
+
+```bash
+  yarn nvision
+```
+
+### - Running Tests
+
+To run tests, run the following command
+
+```bash
+  yarn test
+```
+
+
+## Improvements
+
+Possible improvements to the project:
+- Implement more tests 
+- Automate deployment with Github Actions or CircleCI(If you prefer to deploy to AWS - Vercel solution solve docker and actions problems)
+- Use docker(If you prefer to deploy to AWS - Vercel solution solve docker and actions problems)
+- - Create and save data modification history in DB
+
+
+## Authors
+- [@yuriileaoo](https://www.github.com/yuriileaoo)
+

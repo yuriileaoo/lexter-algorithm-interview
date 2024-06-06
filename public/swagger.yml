@@ -1,0 +1,38 @@
+swagger: "2.0"
+info:
+  title: Lexter Algorithm Interview API
+  description: Modify json data to mount node tree.
+  version: 1.0.0
+basePath: /api
+schemes:
+  - https
+paths:
+  /mount/tree:
+    post:
+      summary: Mount tree by json
+      requestBody:
+        required: true
+        content:
+          application/json:
+           schema:     
+              ArrayOfNodes:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    entryId:
+                      type: string
+                    path:
+                      type: string
+                example:
+                  - entryId: "1"
+                    path: ["root1"]
+                  - entryId: 20
+                    path: ["root2"]
+      responses:
+        200:
+          description: OK
+        405:
+          description: Method not allowed
+        500:
+          description: Internal Server Error
