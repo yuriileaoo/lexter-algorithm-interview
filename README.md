@@ -19,11 +19,11 @@ Modifies a list of objects transforming to expected output.
 > >
 >  > > [📂 pages](https://github.com/yuriileaoo/lexter-algorithm-interview/tree/main/src/pages "React pages") - React pages
 > >
-> >  > > [📂 api](https://github.com/yuriileaoo/lexter-algorithm-interview/tree/main/src/api "Routes") - Backend routes
+> >  >  [📂 api](https://github.com/yuriileaoo/lexter-algorithm-interview/tree/main/src/api "Routes") - Backend routes
 > >
 >  > > [📂 styles](https://github.com/yuriileaoo/lexter-algorithm-interview/tree/main/src/styles "CSS Styles") - CSS Styles
 > >
-> >  > > [📂 types](https://github.com/yuriileaoo/lexter-algorithm-interview/tree/main/src/types "Data Types") - Data Types
+> >  >  [📂 types](https://github.com/yuriileaoo/lexter-algorithm-interview/tree/main/src/types "Data Types") - Data Types
 > >
 
 
