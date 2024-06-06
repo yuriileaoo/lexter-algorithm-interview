@@ -43,10 +43,13 @@ Modifies a list of objects transforming to expected output.
 
 ![Demo](https://teste-flora.s3.amazonaws.com/swagger.png)
 
-[Locahost Swagger](http://localhos:3000/swagger) - (locahost:3000/swagger)
+[Localhost Swagger](http://localhos:3000/swagger) - (locahost:3000/swagger)
 
 ## Observability
 nVision monitors server side fetch calls and displays them on our table where you can keep track of, filter requests, visualizes the application's file structure, and illustrates the relationship between files and components.
+
+[Localhost nVision](http://localhost:3000/nvisionDashboard) - (locahost:3000/swagger)
+
 ![Demo](https://teste-flora.s3.amazonaws.com/nvision.gif)
 
 ## Run Locally
