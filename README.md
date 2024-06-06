@@ -48,7 +48,7 @@ Modifies a list of objects transforming to expected output.
 ## Observability
 nVision monitors server side fetch calls and displays them on our table where you can keep track of, filter requests, visualizes the application's file structure, and illustrates the relationship between files and components.
 
-[Localhost nVision](http://localhost:3000/nvisionDashboard) - (locahost:3000/swagger)
+[Localhost nVision](http://localhost:3000/nvisionDashboard) - (locahost:3000/nvisionDashboard)
 
 ![Demo](https://teste-flora.s3.amazonaws.com/nvision.gif)
 
